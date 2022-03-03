@@ -10,9 +10,11 @@ body {
 }
 .container {
   width: 100%;
-  max-width: 1104px;
-  margin: 0 auto;
-  padding: 0 15px;
+  max-width: 1110px;
+  margin: 5px auto;
+  height: 818px;
+  min-height: 100vh;
+  padding: 15px 0 0 0;
 }
 .page {
   overflow: hidden;
@@ -115,6 +117,9 @@ body {
 .button:hover {
   border: 2px solid rgb(12, 170, 162);
 }
+.button--margin {
+  margin: -45px 0;
+}
 /*Вторая стр*/
 .section {
   position: relative;
@@ -174,4 +179,127 @@ body {
   position: absolute;
   display: block;
   max-width: 100%;
+}
+/*Третья стр*/
+.third_section {
+  padding-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 1920px;
+  min-height: 1038px;
+  height: 100vh;
+  position: relative;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background: url(../img/fon3.png) center no-repeat;
+}
+.inner {
+  display: block;
+  border-bottom: 1px solid #99862a;
+  border-top: 1px solid #99862a;
+}
+h3 {
+  line-height: 24px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  padding-top: 30px;
+}
+h1 {
+  display: block;
+  width: 298px;
+  height: 108px;
+  font-size: 36px;
+  line-height: 54px;
+  color: black;
+  font-family: "Playfair Display", serif;
+}
+h1::after {
+  content: "";
+  display: block;
+  width: 160px;
+  height: 2px;
+  background-color: #282828;
+  margin-top: 30px;
+  opacity: 0.5;
+}
+.paragraph {
+  display: block;
+  width: 469px;
+  height: 84px;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  color: #282828;
+  margin: 60px 0;
+  opacity: 0.8;
+}
+.paragraph--margin {
+  margin: 90px 0;
+}
+.colli {
+  font-size: 18px;
+  line-height: 27px;
+  color: #282828;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  margin: 0px 187px 0 105px;
+  width: 303px;
+  height: 27px;
+}
+.table {
+  display: block;
+  width: 445px;
+  height: 228px;
+  margin: -15px 0;
+}
+.year {
+  display: block;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  margin-top: 30px;
+  font-family: "Montserrat", sans-serif;
+  color: #1f1f1f;
+  margin: 0 52px 0 17px;
+}
+.year--border {
+  position: absolute;
+  content: "";
+  display: block;
+  border-right: 1px solid #282828;
+  width: 60px;
+  height: 310px;
+  opacity: 0.9;
+}
+.textt {
+  font-size: 14px;
+  line-height: 21px;
+  font-family: "Montserrat", sans-serif;
+  color: #282828;
+  margin: 0 187px 40px 105px;
+  width: 285px;
+  height: 21px;
+}
+.text--border {
+  font-size: 14px;
+  line-height: 21px;
+  font-family: "Montserrat", sans-serif;
+  color: #282828;
+  margin: 22px 187px 40px 105px;
+  width: 285px;
+  height: 21px;
+}
+.table_item::after {
+  content: "";
+  display: block;
+  width: 445px;
+  height: 1px;
+  background-color: #282828;
+  margin: -33px 43px 10px 7px;
 }
