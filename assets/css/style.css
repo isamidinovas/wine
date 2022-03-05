@@ -493,3 +493,50 @@ h1::after {
   text-align: center;
   text-transform: uppercase;
 }
+.footer {
+  background-color: #7e6c27;
+  height: 100%;
+}
+.container_footer {
+  min-height: 220px;
+  max-width: 1130px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.nav_link_footer:last-child {
+  border-right: 0;
+}
+.nav_link_footer {
+  padding: 12px 54px;
+  border-right: 1px solid #ffffff;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 21px;
+  text-decoration: none;
+}
+.fa-brands,
+fab {
+  padding-right: 10px;
+}
+.menu {
+  padding-top: 30px;
+}
+.menu_items {
+  padding: 10px 0;
+  border-top: 1px solid#fff;
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+.li {
+  padding: 0;
+  text-decoration: none;
+  color: #fff;
+}
+.li:hover {
+  text-decoration: underline;
+  color: aquamarine;
+  transition: color 0.3s linear;
+}
