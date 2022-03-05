@@ -354,3 +354,142 @@ h1::after {
 .buttonn {
   margin: 45px 0;
 }
+/*Четвертая стр*/
+.section_end {
+  background-color: #282828;
+  height: 100%;
+  padding: 100px 0;
+}
+.container_end {
+  max-width: 1130px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.container_inner {
+  position: relative;
+  width: 100%;
+  border: 3px solid #ffffff;
+  padding-top: 10px;
+  padding-bottom: 80px;
+}
+.section_header {
+  position: relative;
+  width: 100%;
+  max-width: 510px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+.title_deg {
+  color: #fff;
+  font-size: 36px;
+  font-family: "Playfair Display", serif;
+  display: block;
+  padding-top: 70px;
+}
+
+.title_deg:after {
+  content: "";
+  display: block;
+  width: 118px;
+  height: 2px;
+  background-color: #fff;
+  margin: 40px auto;
+}
+.text_p {
+  display: block;
+  color: #fff;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 15px;
+}
+.image_left {
+  display: block;
+  position: absolute;
+  top: -43px;
+  left: -102px;
+  z-index: 1;
+  right: 0;
+}
+.image_left::after {
+  content: "";
+  display: block;
+  width: 118px;
+  height: 2px;
+  background-color: #fff;
+  margin: 40px auto;
+}
+.image_right {
+  display: block;
+  position: absolute;
+  top: -33px;
+  left: auto;
+  right: -115px;
+  z-index: 1;
+}
+.contacts {
+  width: 1085px;
+}
+.contacts_item {
+  width: 590px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  text-align: center;
+  padding-top: 50px;
+}
+.name {
+  background-color: #282828;
+  color: #ffffff;
+  font-size: 18px;
+  border: 0;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 5px;
+}
+.phone_number {
+  border: 0;
+  border-bottom: 1px solid #fff;
+  background-color: #282828;
+  color: #ffffff;
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+
+.address {
+  width: 554px;
+  margin: 40px auto;
+}
+.address_item {
+  border: 0;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  background-color: #282828;
+  margin: 0 auto;
+  padding-bottom: 5px;
+  width: 523px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  padding-top: 10px;
+}
+.address_name {
+  font-size: 18px;
+  margin: 30px 70px;
+}
+.button_reg {
+  color: #fff;
+  margin: 0 auto;
+  padding-top: 30px;
+  display: block;
+  width: 50%;
+  padding: 15px 0;
+  margin-top: 50px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
