@@ -13,8 +13,7 @@ body {
   width: 100%;
   max-width: 1110px;
   margin: 5px auto;
-  height: 818px;
-  min-height: 100vh;
+  height: 0;
   padding: -24px 0 0 0;
 }
 .page {
@@ -102,21 +101,30 @@ body {
 }
 .button {
   margin: 30px 10px;
+  background-color: #998431;
   font-size: 16px;
   font-weight: 500;
   line-height: 19.5px;
   font-family: "Montserrat", sans-serif;
-  background-color: #99862a;
   text-transform: uppercase;
   padding: 10px 30px;
   color: #fff;
 }
 .button:hover {
-  border: 2px solid rgb(12, 170, 162);
+  background: #e6c853;
+  transition: all 0.3s linear;
+}
+.button_reg:hover {
+  background: #e6c853;
+  transition: all 0.3s linear;
 }
 .button_margin {
   display: flex;
   margin: -54px 0;
+}
+.button_margin:hover {
+  background: #e6c853;
+  transition: all 0.3s linear;
 }
 .button_margin::after {
   content: "";
@@ -485,7 +493,7 @@ h1::after {
   width: 50%;
   padding: 15px 0;
   margin-top: 50px;
-  background-color: transparent;
+  background-color: #998431;
   border: 1px solid #ffffff;
   font-size: 16px;
   font-weight: 500;
